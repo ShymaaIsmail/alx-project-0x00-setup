@@ -2,9 +2,9 @@
 
 const Pill: React.FC<PillProps> = ({ title }) => {
     return (
-        <div className="bg-[#F2F2F2] text-[#131212] text-[12.95px] font-medium px-3 py-1 rounded-full">
-            <p>{ title }</p>
-        </div>
+    <div className=" flex justify-center  items-center bg-[#F9F9F9] px-3 w-auto h-[27px] rounded-full">
+    <p className=" text-sm ">{title}</p>
+    </div>
     )
 }
 export default Pill;
